@@ -1,0 +1,16 @@
+<ion-view view-title="Tools">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="tool in tools" type="item-text-wrap" href="#/tab/tools/{{tool.id}}">
+        <img ng-src="{{tool.face}}">
+        <h2>{{tool.name}}</h2>
+        <p>{{tool.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(tool)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
