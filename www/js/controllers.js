@@ -19,6 +19,7 @@ angular.module('starter.controllers', [])
 
 .controller('ToolDetailCtrl', function($scope, $stateParams, Tools) {
   $scope.tool = Tools.get($stateParams.toolId);
+    
 })
 
 .controller('ComfortCtrl', function($scope, $stateParams, Tools) {

@@ -6,29 +6,39 @@ angular.module('starter.services', [])
   // Some fake testing data
   var tools = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'img/ben.png'
+    name: 'Gratitude',
+    lastText: 'Think of 5 things that you are grateful for.',
+    face: 'img/buds.jpg'
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'img/max.png'
+    name: 'Exercise',
+    lastText: 'Work out hard.',
+    face: 'img/swim1.jpg'
   }, {
     id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
+    name: 'Distraction',
+    lastText: 'Pay attention to something external. Get out of your head, if it is doing crazy-making things',
+    face: 'img/turtle3.jpg'
   }, {
     id: 3,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'img/perry.png'
+    name: 'Cut off negative thoughts',
+    lastText: 'Pull out that sword!',
+    face: 'img/sword1.jpg'
   }, {
     id: 4,
-    name: 'Mike Harrington',
+    name: 'Make time to breathe. It\s worth it!',
     lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
+    face: 'img/turtle1.jpg'
+  }, {
+    id: 5,
+    name: 'Are you contracted? If yes, expand. Stand up straight. Pull your shoulders back. Look up. Smile.',
+    lastText: '',
+    face: 'img/expand.jpg'
+  }, {
+    id: 6,
+    name: 'Do something nice for someone else.',
+    lastText: '',
+    face: 'img/flower1.jpg'
   }];
 
   return {
