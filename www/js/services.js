@@ -27,7 +27,7 @@ angular.module('starter.services', [])
   }, {
     id: 4,
     name: 'Make time to breathe. ',
-    lastText: 'It\s worth it!',
+    lastText: 'Slow down. Breathe. It\s worth it! A few breaths can change your state for the rest of the day.',
     face: 'img/turtle1.jpg'
   }, {
     id: 5,
@@ -63,7 +63,7 @@ angular.module('starter.services', [])
     id: 11,
     name: 'Pay attention externally. ',
     lastText: 'Look all that\s around you, get outside of your mind. Name 3 things that you see, 3 things that you hear, 3 things that you feel. Look up and smile.',
-    face: 'img/flower1.jpg'
+    face: 'img/water2.jpg'
   }, {
     id: 12,
     name: 'Take a bath.',
@@ -76,7 +76,7 @@ angular.module('starter.services', [])
     face: 'img/call1.jpg'
   }, {
     id: 14,
-    name: 'Get outside.',
+    name: 'Go outside. Consider taking a walk or just being outdoors and doing anything. Get outside your mind by noticing what\s around you.',
     lastText: '',
     face: 'img/flower3.jpg'
   }];
