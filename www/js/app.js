@@ -71,13 +71,23 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
+    
+  .state('tab.potions', {
+      url: '/potions',
+      views: {
+        'tab-potions': {
+          templateUrl: 'templates/tab-potions.html',
+          controller: 'PotionsCtrl'
+        }
+      }
+    })
 
-  .state('tab.account', {
-    url: '/account',
+  .state('tab.comfort', {
+    url: '/comfort',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+      'tab-comfort': {
+        templateUrl: 'templates/tab-comfort.html',
+        controller: 'ComfortCtrl'
       }
     }
   });

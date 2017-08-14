@@ -21,7 +21,11 @@ angular.module('starter.controllers', [])
   $scope.tool = Tools.get($stateParams.toolId);
 })
 
-.controller('AccountCtrl', function($scope) {
+.controller('ComfortCtrl', function($scope, $stateParams, Tools) {
+//  $scope.tool = Tools.get($stateParams.toolId);
+})
+
+.controller('PotionsCtrl', function($scope) {
   $scope.settings = {
     enableFriends: true
   };
